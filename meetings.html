@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meetings - Girl Scouts Troop Materials</title>
+  <meta name="description" content="Meeting plans and agendas for Girl Scouts troop">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <span class="logo">🍀</span>
+        <span>GS Troop Materials</span>
+      </a>
+      <ul class="navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="meetings.html">Meetings</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="communications.html">Communications</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="container">
+    <div class="page-header">
+      <h1>📅 Meetings</h1>
+      <p>Meeting plans, agendas, and schedules for your troop</p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      <!-- Search Bar -->
+      <div class="search-container">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input 
+            type="text" 
+            id="search-input" 
+            placeholder="Search meetings by date, theme, or activity..."
+            autocomplete="off"
+          >
+        </div>
+      </div>
+
+      <!-- No Results Message (hidden by default) -->
+      <div id="no-results" class="empty-state hidden">
+        <div class="icon">🔍</div>
+        <h3>No meetings found for "<span class="search-term"></span>"</h3>
+        <p>Try a different search term or browse all meetings below.</p>
+      </div>
+
+      <!-- Meetings Grid -->
+      <div class="section-group">
+        <h2>Meeting Plans</h2>
+        
+        <!-- Example placeholder cards - these will be populated from the meetings/ directory -->
+        <div class="cards-grid" id="meetings-grid">
+          <!-- Example Meeting Card (template for when content is added) -->
+          <div class="card" data-searchable="example first meeting getting to know you icebreakers introductions">
+            <div class="card-header">
+              <span class="card-icon">📅</span>
+              <div style="flex: 1;">
+                <h3 class="card-title">First Meeting - Getting to Know You</h3>
+                <div class="card-meta">
+                  <span class="card-badge">Icebreakers</span>
+                  <span class="card-date">📍 Example Meeting</span>
+                </div>
+              </div>
+            </div>
+            <p class="card-description">
+              Welcome new scouts with fun icebreakers, troop introductions, and an overview of what to expect. 
+              Includes name games, friendship circle, and Girl Scout Promise introduction.
+            </p>
+            <div class="card-actions">
+              <button class="btn btn-primary">View Plan</button>
+              <button class="btn btn-secondary">Download</button>
+            </div>
+          </div>
+
+          <div class="card" data-searchable="example badge work outdoor adventure nature hike">
+            <div class="card-header">
+              <span class="card-icon">🏕️</span>
+              <div style="flex: 1;">
+                <h3 class="card-title">Outdoor Adventure Badge</h3>
+                <div class="card-meta">
+                  <span class="card-badge">Badge Work</span>
+                  <span class="card-date">📍 Example Meeting</span>
+                </div>
+              </div>
+            </div>
+            <p class="card-description">
+              Work on outdoor skills including nature observation, basic hiking safety, and leave no trace principles. 
+              Perfect for ages 6-7 with hands-on activities.
+            </p>
+            <div class="card-actions">
+              <button class="btn btn-primary">View Plan</button>
+              <button class="btn btn-secondary">Download</button>
+            </div>
+          </div>
+
+          <div class="card" data-searchable="example holiday craft party celebration winter">
+            <div class="card-header">
+              <span class="card-icon">🎄</span>
+              <div style="flex: 1;">
+                <h3 class="card-title">Holiday Craft Party</h3>
+                <div class="card-meta">
+                  <span class="card-badge">Special Event</span>
+                  <span class="card-date">📍 Example Meeting</span>
+                </div>
+              </div>
+            </div>
+            <p class="card-description">
+              Festive holiday celebration with crafts, treats, and friendship activities. 
+              Make ornaments, cards, and simple gifts while building community.
+            </p>
+            <div class="card-actions">
+              <button class="btn btn-primary">View Plan</button>
+              <button class="btn btn-secondary">Download</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Empty State (shown when no meetings exist) -->
+        <div class="empty-state" id="empty-state" style="display: none;">
+          <div class="icon">📅</div>
+          <h3>No Meetings Yet</h3>
+          <p>Meeting plans will appear here as they're added to the meetings/ directory.</p>
+          <p style="margin-top: 1rem; font-size: 0.875rem;">
+            Add meeting plans as markdown or PDF files to the <code>meetings/</code> folder in the repository.
+          </p>
+        </div>
+      </div>
+
+      <!-- Tips Section -->
+      <div class="section-group">
+        <h2>Meeting Tips</h2>
+        <div class="card">
+          <div class="card-header">
+            <span class="card-icon">💡</span>
+            <h3 class="card-title">Best Practices for Troop Meetings</h3>
+          </div>
+          <ul style="margin-left: 1.5rem; margin-top: 1rem; color: var(--gray-700); line-height: 1.8;">
+            <li><strong>Opening & Closing:</strong> Start with the Girl Scout Promise and end with a friendship circle</li>
+            <li><strong>Timing:</strong> Plan 60-90 minute meetings with clear time blocks for each activity</li>
+            <li><strong>Engagement:</strong> Keep ages 6-7 active with hands-on activities and movement breaks</li>
+            <li><strong>Prep:</strong> Have all materials ready before scouts arrive</li>
+            <li><strong>Flexibility:</strong> Be ready to adapt if energy levels or interest shifts</li>
+            <li><strong>Recognition:</strong> Celebrate achievements and encourage participation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>🍀 Girl Scouts Troop Materials • Auto-backed up via OpenClaw</p>
+      <p style="margin-top: 0.5rem; font-size: 0.75rem;">For troop use only • Not affiliated with GSUSA</p>
+    </div>
+  </footer>
+
+  <script src="js/search.js"></script>
+</body>
+</html>
