@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activities - Girl Scouts Troop Materials</title>
+  <meta name="description" content="Badge activities and crafts for Girl Scouts ages 6-7">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <span class="logo">🍀</span>
+        <span>GS Troop Materials</span>
+      </a>
+      <ul class="navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="meetings.html">Meetings</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="communications.html">Communications</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="container">
+    <div class="page-header">
+      <h1>🎨 Activities</h1>
+      <p>Badge activities, crafts, and skill-building exercises for ages 6-7</p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      <!-- Search Bar -->
+      <div class="search-container">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input 
+            type="text" 
+            id="search-input" 
+            placeholder="Search activities by badge, skill, or theme..."
+            autocomplete="off"
+          >
+        </div>
+      </div>
+
+      <!-- No Results Message (hidden by default) -->
+      <div id="no-results" class="empty-state hidden">
+        <div class="icon">🔍</div>
+        <h3>No activities found for "<span class="search-term"></span>"</h3>
+        <p>Try a different search term or browse all activities below.</p>
+      </div>
+
+      <!-- Badge Activities -->
+      <div class="section-group">
+        <h2>Badge Activities</h2>
+        
+        <div class="cards-grid" id="badges-grid">
+          <!-- Example Badge Activity Cards -->
+          <div class="card" data-searchable="example daisy outdoor adventurer badge nature hiking trail safety">
+            <div class="card-header">
+              <span class="card-icon">🏕️</span>
+              <div style="flex: 1;">
+                <h3 class="card-title">Outdoor Adventurer</h3>
+                <div class="card-meta">
+                  <span class="card-badge">Daisy Badge</span>
+                  <span class="card-badge">Outdoors</span>
+                </div>
+              </div>
+            </div>
+            <p class="card-description">
+              Explore nature and learn basic outdoor skills. Activities include nature scavenger hunt, 
+              identifying plants and animals, and learning trail safety.
+            </p>
+            <div class="card-actions">
+              <button class="btn btn-primary">View Activity</button>
+              <button class="btn btn-secondary">Materials List</button>
+            </div>
+          </div>
+
+          <div class="card" data-searchable="example daisy celebrate me my family traditions culture">
+            <div class="card-header">
+              <span class="card-icon">👨‍👩‍👧</span>
+              <div style="flex: 1;">
+                <h3 class="card-title">Celebrate Me & My Family</h3>
+                <div class="card-meta">
+                  <span class="card-badge">Daisy Badge</span>
+                  <span class="card-badge">Culture</span>
+                </div>
+              </div>
+            </div>
+            <p class="card-description">
+              Discover what makes each scout and her family special. Share traditions, create family trees, 
+              and celebrate diversity through stories and crafts.
+            </p>
+            <div class="card-actions">
+              <button class="btn btn-primary">View Activity</button>
+              <button class="btn btn-secondary">Materials List</button>
+            </div>
+          </div>
+
+          <div class="card" data-searchable="example daisy friends making friendship skills social">
+            <div class="card-header">
+              <span class="card-icon">🤝</span>
+              <div style="flex: 1;">
+                <h3 class="card-title">Making Friends</h3>
+                <div class="card-meta">
+                  <span class="card-badge">Daisy Badge</span>
+                  <span class="card-badge">Social Skills</span>
+                </div>
+              </div>
+            </div>
+            <p class="card-description">
+              Build friendship skills through games, activities, and kind acts. Learn to be a good friend, 
+              resolve conflicts, and include everyone.
+            </p>
+            <div class="card-actions">
+              <button class="btn btn-primary">View Activity</button>
+              <button class="btn btn-secondary">Materials List</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Crafts & Projects -->
+      <div class="section-group">
+        <h2>Crafts & Projects</h2>
+        
+        <div class="cards-grid" id="crafts-grid">
+          <!-- Example Craft Cards -->
+          <div class="card" data-searchable="example friendship bracelets craft jewelry making">
+            <div class="card-header">
+              <span class="card-icon">🎨</span>
+              <div style="flex: 1;">
+                <h3 class="card-title">Friendship Bracelets</h3>
+                <div class="card-meta">
+                  <span class="card-badge">Craft</span>
+                  <span class="card-badge">Easy</span>
+                </div>
+              </div>
+            </div>
+            <p class="card-description">
+              Make colorful friendship bracelets to give to troop sisters. Simple patterns perfect for beginners 
+              ages 6-7. Great for fine motor skills and creativity.
+            </p>
+            <div class="card-actions">
+              <button class="btn btn-primary">View Instructions</button>
+              <button class="btn btn-secondary">Materials</button>
+            </div>
+          </div>
+
+          <div class="card" data-searchable="example nature art craft leaves flowers outdoor">
+            <div class="card-header">
+              <span class="card-icon">🍃</span>
+              <div style="flex: 1;">
+                <h3 class="card-title">Nature Art</h3>
+                <div class="card-meta">
+                  <span class="card-badge">Craft</span>
+                  <span class="card-badge">Outdoor</span>
+                </div>
+              </div>
+            </div>
+            <p class="card-description">
+              Create beautiful art using items found in nature. Make leaf rubbings, flower pressings, 
+              and rock paintings. Combines outdoor time with creativity.
+            </p>
+            <div class="card-actions">
+              <button class="btn btn-primary">View Instructions</button>
+              <button class="btn btn-secondary">Materials</button>
+            </div>
+          </div>
+
+          <div class="card" data-searchable="example cookie decorating baking cooking kitchen">
+            <div class="card-header">
+              <span class="card-icon">🍪</span>
+              <div style="flex: 1;">
+                <h3 class="card-title">Cookie Decorating</h3>
+                <div class="card-meta">
+                  <span class="card-badge">Cooking</span>
+                  <span class="card-badge">Fun</span>
+                </div>
+              </div>
+            </div>
+            <p class="card-description">
+              Decorate cookies with frosting, sprinkles, and creativity! Learn basic kitchen safety 
+              and food handling while having delicious fun.
+            </p>
+            <div class="card-actions">
+              <button class="btn btn-primary">View Instructions</button>
+              <button class="btn btn-secondary">Recipe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Games & Active Play -->
+      <div class="section-group">
+        <h2>Games & Active Play</h2>
+        
+        <div class="cards-grid" id="games-grid">
+          <!-- Example Game Cards -->
+          <div class="card" data-searchable="example scavenger hunt outdoor active game">
+            <div class="card-header">
+              <span class="card-icon">🔍</span>
+              <div style="flex: 1;">
+                <h3 class="card-title">Nature Scavenger Hunt</h3>
+                <div class="card-meta">
+                  <span class="card-badge">Game</span>
+                  <span class="card-badge">Active</span>
+                </div>
+              </div>
+            </div>
+            <p class="card-description">
+              Search for items in nature using a picture checklist. Great for observation skills, 
+              teamwork, and getting scouts moving outdoors.
+            </p>
+            <div class="card-actions">
+              <button class="btn btn-primary">View Game</button>
+              <button class="btn btn-secondary">Print List</button>
+            </div>
+          </div>
+
+          <div class="card" data-searchable="example relay races team building active cooperative">
+            <div class="card-header">
+              <span class="card-icon">🏃‍♀️</span>
+              <div style="flex: 1;">
+                <h3 class="card-title">Team Building Relay Races</h3>
+                <div class="card-meta">
+                  <span class="card-badge">Game</span>
+                  <span class="card-badge">Teamwork</span>
+                </div>
+              </div>
+            </div>
+            <p class="card-description">
+              Fun relay races that build cooperation and encourage everyone. Silly challenges 
+              perfect for ages 6-7 with different skill levels.
+            </p>
+            <div class="card-actions">
+              <button class="btn btn-primary">View Game</button>
+              <button class="btn btn-secondary">Setup Guide</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Empty State (shown when no activities exist) -->
+      <div class="empty-state" id="empty-state" style="display: none;">
+        <div class="icon">🎨</div>
+        <h3>No Activities Yet</h3>
+        <p>Activity plans will appear here as they're added to the activities/ directory.</p>
+        <p style="margin-top: 1rem; font-size: 0.875rem;">
+          Add activity plans as markdown or PDF files to the <code>activities/</code> folder in the repository.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>🍀 Girl Scouts Troop Materials • Auto-backed up via OpenClaw</p>
+      <p style="margin-top: 0.5rem; font-size: 0.75rem;">For troop use only • Not affiliated with GSUSA</p>
+    </div>
+  </footer>
+
+  <script src="js/search.js"></script>
+</body>
+</html>
