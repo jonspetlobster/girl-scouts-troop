@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Orientation Agenda - Girl Scouts</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .agenda-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #fff;
+        }
+        
+        .breadcrumb {
+            padding: 1rem 0;
+            color: var(--gray-600);
+            font-size: 0.9rem;
+        }
+        
+        .breadcrumb a {
+            color: var(--gs-green);
+            text-decoration: none;
+        }
+        
+        h1 {
+            color: #006747;
+            border-bottom: 3px solid #006747;
+            padding-bottom: 15px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #006747;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            border-left: 5px solid #006747;
+            padding-left: 15px;
+        }
+        
+        h3 {
+            color: #006747;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        
+        .section {
+            background: #f9f9f9;
+            border-left: 4px solid #006747;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .highlight-box {
+            background: #f0f8f5;
+            border: 2px solid #006747;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        ul, ol {
+            margin: 15px 0 15px 30px;
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+        
+        strong {
+            color: #006747;
+        }
+        
+        hr {
+            border: none;
+            border-top: 2px solid #e0e0e0;
+            margin: 30px 0;
+        }
+        
+        .time-note {
+            background: #fffacd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .print-button {
+            position: fixed;
+            top: 100px;
+            right: 20px;
+            background: #006747;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            font-size: 1em;
+            z-index: 100;
+        }
+        
+        .print-button:hover {
+            background: #005237;
+        }
+        
+        @media print {
+            .breadcrumb, .print-button, nav {
+                display: none;
+            }
+            
+            body {
+                padding: 0;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .agenda-container {
+                padding: 20px 10px;
+            }
+            
+            .print-button {
+                position: static;
+                display: block;
+                margin: 20px 0;
+                text-align: center;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="../index.html" class="navbar-brand"><span class="logo">🍀</span><span>GS Troop Materials</span></a>
+            <ul class="navbar-nav">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../onboarding.html">Onboarding</a></li>
+                <li><a href="../meetings.html">Meetings</a></li>
+                <li><a href="../activities.html">Activities</a></li>
+                <li><a href="../resources.html">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="agenda-container">
+        <div class="breadcrumb">
+            <a href="../onboarding-parent-meeting.html">← Back to Parent Meeting Guide</a>
+        </div>
+        
+        <button class="print-button" onclick="window.print()">🖨️ Print Agenda</button>
+        
+        <h1>Parent Orientation Meeting - Agenda</h1>
+        <p class="subtitle"><strong>Megan's Reference Guide</strong></p>
+        
+        <div class="time-note">
+            Total Meeting Time: ~60 minutes
+        </div>
+        
+        <hr>
+        
+        <div class="section">
+            <h2>1. Welcome & Introductions (5 min)</h2>
+            <ul>
+                <li>Introduce yourself</li>
+                <li>Quick round: each parent shares their name and daughter's name</li>
+                <li>Thank them for signing up!</li>
+            </ul>
+        </div>
+        
+        <hr>
+        
+        <div class="section">
+            <h2>2. What is Girl Scouts? (8 min)</h2>
+            <ul>
+                <li>Brief history/mission: building girls of courage, confidence, character</li>
+                <li>The Girl Scout Promise and Law (don't worry about memorizing yet!)</li>
+                <li>Age levels: Daisies (K-1st), Brownies, Juniors, etc.</li>
+                <li>Girl-led, hands-on learning</li>
+            </ul>
+        </div>
+        
+        <hr>
+        
+        <div class="section">
+            <h2>3. Our Troop Vision (7 min)</h2>
+            <div class="highlight-box">
+                <h3>What makes our troop special:</h3>
+                <ul>
+                    <li>More adventure and outdoor activities</li>
+                    <li>Science experiments and problem-solving</li>
+                    <li>Hands-on skills the girls can actually use</li>
+                    <li>Building confidence through challenges</li>
+                    <li>Fun, supportive environment</li>
+                </ul>
+            </div>
+        </div>
+        
+        <hr>
+        
+        <div class="section">
+            <h2>4. Meeting Details (5 min)</h2>
+            <ul>
+                <li><strong>When:</strong> [Day/time]</li>
+                <li><strong>Where:</strong> [Location]</li>
+                <li><strong>How often:</strong> [Weekly/bi-weekly]</li>
+                <li><strong>What to bring:</strong> Water bottle, any materials requested ahead of time</li>
+                <li><strong>Drop-off/pick-up:</strong> [Procedures and timing]</li>
+            </ul>
+        </div>
+        
+        <hr>
+        
+        <div class="section">
+            <h2>5. What We'll Be Doing (5 min)</h2>
+            <ul>
+                <li>Earning Daisy petals (building our flower!)</li>
+                <li>Badge work (3-4 badges this season)</li>
+                <li>Field trips and special activities</li>
+                <li>Service project</li>
+                <li>End-of-year bridging ceremony</li>
+            </ul>
+        </div>
+        
+        <hr>
+        
+        <div class="section">
+            <h2>6. Costs & Financials (5 min)</h2>
+            <ul>
+                <li><strong>Registration fee:</strong> Already paid ✓</li>
+                <li><strong>Uniform:</strong> ~$70 (tunic, sash) - <strong>OPTIONAL for this short season</strong> (but we're earning badges/petals so girls will be excited!)</li>
+                <li><strong>Troop dues:</strong> [Your amount if any, or say "none"]</li>
+                <li><strong>Field trips/special activities:</strong> Approximately [range]</li>
+                <li><strong>Cookie season:</strong> [When], great fundraiser for troop activities</li>
+                <li>What troop funds will cover</li>
+            </ul>
+        </div>
+        
+        <hr>
+        
+        <div class="section">
+            <h2>7. Volunteer Needs (7 min)</h2>
+            <div class="highlight-box">
+                <h3>We need help to make this work!</h3>
+            </div>
+            <ul>
+                <li>At least 1-2 parent helpers at each meeting (safety requirement)</li>
+                <li>Field trip chaperones</li>
+                <li>Snack rotation schedule (pass around sign-up sheet)</li>
+                <li>Special skills? Share crafts, hobbies, careers with the girls!</li>
+                <li>Behind-the-scenes help (coordinating activities, paperwork)</li>
+            </ul>
+            <p><strong>Background checks:</strong> Required for regular volunteers (I'll send info)</p>
+        </div>
+        
+        <hr>
+        
+        <div class="section">
+            <h2>8. Safety & Important Info (5 min)</h2>
+            <ul>
+                <li>Need emergency contact forms from everyone (hand out if not already collected)</li>
+                <li><strong>Allergies:</strong> Please share any food allergies NOW (pass around sheet)</li>
+                <li>Behavior expectations: respectful, inclusive, supportive</li>
+                <li>Communication: How I'll reach you [group text/email/app]</li>
+            </ul>
+        </div>
+        
+        <hr>
+        
+        <div class="section">
+            <h2>9. How Parents Can Support (3 min)</h2>
+            <ul>
+                <li>Volunteering at meetings or behind the scenes</li>
+                <li>Helping with badge activities at home</li>
+                <li>Sharing ideas and feedback</li>
+                <li>Being flexible as we learn together!</li>
+            </ul>
+        </div>
+        
+        <hr>
+        
+        <div class="section">
+            <h2>10. Q&A (10 min)</h2>
+            <p>Open floor for questions</p>
+        </div>
+        
+        <hr>
+        
+        <div class="section">
+            <h2>11. Wrap-Up</h2>
+            <ul>
+                <li>Pass out parent handout</li>
+                <li>Collect emergency forms and allergy info</li>
+                <li>Next meeting: [date/time]</li>
+                <li>Thank you!</li>
+            </ul>
+        </div>
+        
+        <hr>
+        
+        <div style="text-align: center; margin-top: 40px; padding: 20px; background: #f0f8f5; border-radius: 10px;">
+            <p style="font-size: 1.1em;"><strong>Remember:</strong> You've got this! Be yourself and let your enthusiasm shine! 🌟</p>
+        </div>
+    </div>
+</body>
+</html>

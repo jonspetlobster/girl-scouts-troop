@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Handbook - Girl Scouts Troop</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+        .handbook-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #fff;
+        }
+        h1 {
+            color: #006747;
+            border-bottom: 3px solid #006747;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #006747;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-left: 5px solid #006747;
+            padding-left: 15px;
+        }
+        h3 {
+            color: #006747;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-top: 5px;
+            margin-bottom: 30px;
+        }
+        blockquote {
+            background: #f9f9f9;
+            border-left: 5px solid #006747;
+            margin: 20px 0;
+            padding: 15px 20px;
+            font-style: italic;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        ul, ol {
+            margin: 10px 0 10px 20px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        .highlight-box {
+            background: #f0f8f5;
+            border: 2px solid #006747;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .contact-box {
+            background: #e8f5e9;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        strong {
+            color: #006747;
+        }
+        .editable {
+            background: #fffacd;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .print-button {
+            position: fixed;
+            top: 100px;
+            right: 20px;
+            background: #006747;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            font-size: 1em;
+            z-index: 100;
+        }
+        .print-button:hover {
+            background: #005237;
+        }
+        .breadcrumb {
+            padding: 1rem 0;
+            color: var(--gray-600);
+            font-size: 0.9rem;
+        }
+        .breadcrumb a {
+            color: var(--gs-green);
+            text-decoration: none;
+        }
+        @media print {
+            .print-button, .breadcrumb, nav {
+                display: none;
+            }
+            body {
+                padding: 0;
+            }
+            .editable {
+                background: none;
+            }
+        }
+        @media (max-width: 768px) {
+            .print-button {
+                position: static;
+                display: block;
+                margin: 20px 0;
+                text-align: center;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="../index.html" class="navbar-brand"><span class="logo">🍀</span><span>GS Troop Materials</span></a>
+            <ul class="navbar-nav">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../onboarding.html">Onboarding</a></li>
+                <li><a href="../meetings.html">Meetings</a></li>
+                <li><a href="../activities.html">Activities</a></li>
+                <li><a href="../resources.html">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="handbook-container">
+        <div class="breadcrumb">
+            <a href="../onboarding-parent-meeting.html">← Back to Parent Meeting Guide</a>
+        </div>
+
+        <button class="print-button" onclick="window.print()">🖨️ Print / Save PDF</button>
+        
+        <div class="header">
+            <h1>Girl Scout Daisy Troop <span class="editable">[NUMBER]</span></h1>
+            <p class="subtitle">Parent Handbook & Information Guide</p>
+        </div>
+
+        <div class="section">
+            <h2>Welcome to Girl Scouts!</h2>
+            <p>Thank you for joining our troop! This is going to be an exciting year for your Daisy. This guide covers everything you need to know about our troop, meetings, and how you can be involved.</p>
+        </div>
+
+        <div class="section">
+            <h2>About Girl Scouts</h2>
+            <p>Girl Scouts builds girls of <strong>courage, confidence, and character</strong> who make the world a better place. Through hands-on activities, outdoor adventures, and working together, girls learn important life skills while having fun!</p>
+
+            <h3>The Girl Scout Promise:</h3>
+            <blockquote>
+                On my honor, I will try:<br>
+                To serve God and my country,<br>
+                To help people at all times,<br>
+                And to live by the Girl Scout Law.
+            </blockquote>
+
+            <h3>The Girl Scout Law:</h3>
+            <blockquote>
+                I will do my best to be honest and fair, friendly and helpful, considerate and caring, courageous and strong, and responsible for what I say and do, and to respect myself and others, respect authority, use resources wisely, make the world a better place, and be a sister to every Girl Scout.
+            </blockquote>
+        </div>
+
+        <div class="section">
+            <h2>Our Troop Vision</h2>
+            <div class="highlight-box">
+                <p><strong>Our troop will focus on:</strong></p>
+                <ul>
+                    <li><strong>Adventure</strong> - Getting outside, trying new things, exploring</li>
+                    <li><strong>Science & Problem-Solving</strong> - Hands-on experiments and challenges</li>
+                    <li><strong>Practical Skills</strong> - Learning things they can actually use</li>
+                    <li><strong>Confidence Building</strong> - Supporting each girl to try, fail, and succeed</li>
+                    <li><strong>Fun!</strong> - Because that's what being 6-7 is all about</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Meeting Information</h2>
+            <p><strong>Day/Time:</strong> <span class="editable">[Fill in]</span><br>
+            <strong>Location:</strong> <span class="editable">[Fill in]</span><br>
+            <strong>Frequency:</strong> <span class="editable">[Weekly/bi-weekly]</span></p>
+
+            <h3>What to bring:</h3>
+            <ul>
+                <li>Water bottle</li>
+                <li>Any materials requested ahead of time</li>
+                <li>Positive attitude and willingness to try new things!</li>
+            </ul>
+
+            <h3>Drop-off/Pick-up:</h3>
+            <p><span class="editable">[Your procedures and timing]</span></p>
+        </div>
+
+        <div class="section">
+            <h2>What We'll Be Doing</h2>
+
+            <h3>Daisy Petals</h3>
+            <p>Girls will earn petals to build their Daisy flower! Each petal represents a line from the Girl Scout Law.</p>
+
+            <h3>Badges</h3>
+            <p>We'll work on 3-4 badges this season covering topics like:</p>
+            <ul>
+                <li>Outdoor adventures</li>
+                <li>STEM activities</li>
+                <li>Creative arts</li>
+                <li>Community service</li>
+            </ul>
+
+            <h3>Field Trips & Special Activities</h3>
+            <p><span class="editable">[List ideas or say "To be determined with troop input"]</span></p>
+
+            <h3>Service Project</h3>
+            <p>Girls will plan and complete a service project to help their community.</p>
+
+            <h3>Bridging Ceremony</h3>
+            <p>At the end of the year, we'll celebrate the girls "bridging" from Daisies to Brownies!</p>
+        </div>
+
+        <div class="section">
+            <h2>Costs & Financials</h2>
+            
+            <p><strong>Registration Fee:</strong> Paid ✓</p>
+
+            <h3>Uniform (Optional for this season):</h3>
+            <ul>
+                <li>Daisy tunic: ~$35</li>
+                <li>Sash or vest: ~$15-20</li>
+                <li>Additional accessories: ~$20</li>
+                <li><strong>Total: ~$70</strong></li>
+            </ul>
+            <p><em>Note: Uniforms are optional since we only have a couple months left, but girls LOVE wearing their petals and badges!</em></p>
+
+            <p><strong>Troop Dues:</strong> <span class="editable">[Your amount or "None"]</span></p>
+
+            <p><strong>Field Trips/Activities:</strong> Approximately <span class="editable">[range]</span><br>
+            <em>Some costs may be covered by troop funds from cookie sales</em></p>
+
+            <h3>Cookie Season: <span class="editable">[When it happens]</span></h3>
+            <ul>
+                <li>Girls sell cookies to earn money for troop activities</li>
+                <li>Completely voluntary but a great learning experience!</li>
+                <li>More details coming in <span class="editable">[month]</span></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>How You Can Help</h2>
+            
+            <div class="highlight-box">
+                <h3>We need parent volunteers!</h3>
+            </div>
+
+            <h3>At Meetings:</h3>
+            <ul>
+                <li>At least 1-2 parent helpers needed at each meeting (safety requirement)</li>
+                <li>Help with activities, supervise small groups, setup/cleanup</li>
+            </ul>
+
+            <h3>Field Trips:</h3>
+            <ul>
+                <li>Chaperones needed (1 adult per 4-6 girls)</li>
+            </ul>
+
+            <h3>Snack Rotation:</h3>
+            <ul>
+                <li>Sign up to bring snacks for one meeting</li>
+                <li>Please check allergy list before bringing food!</li>
+            </ul>
+
+            <h3>Special Skills:</h3>
+            <ul>
+                <li>Do you have a hobby, career, or skill to share?</li>
+                <li>We'd love parent-led activities (crafting, cooking, hiking, science, etc.)</li>
+            </ul>
+
+            <h3>Behind the Scenes:</h3>
+            <ul>
+                <li>Help coordinate activities</li>
+                <li>Track paperwork and forms</li>
+                <li>Order supplies</li>
+            </ul>
+
+            <h3>Background Checks:</h3>
+            <ul>
+                <li>Required for regular volunteers</li>
+                <li>Instructions will be sent separately</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Safety & Important Information</h2>
+
+            <h3>Emergency Contacts:</h3>
+            <ul>
+                <li>Please keep your contact info updated</li>
+                <li>We need at least 2 emergency contacts per girl</li>
+            </ul>
+
+            <h3>Allergies:</h3>
+            <ul>
+                <li>Please inform us of ANY food allergies or medical conditions</li>
+                <li>We maintain a confidential allergy list</li>
+            </ul>
+
+            <h3>Behavior Expectations:</h3>
+            <ul>
+                <li>Be respectful, kind, and inclusive</li>
+                <li>Listen when others are speaking</li>
+                <li>Try new things with a positive attitude</li>
+                <li>Support your sister scouts</li>
+            </ul>
+
+            <h3>Communication:</h3>
+            <ul>
+                <li>Primary contact: <span class="editable">[Email/phone/app]</span></li>
+                <li>Meeting reminders sent <span class="editable">[when]</span></li>
+                <li>Please respond to important messages within 24 hours</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Important Dates</h2>
+            <ul>
+                <li><strong>Next Meeting:</strong> <span class="editable">[Date/time]</span></li>
+                <li><strong>Cookie Season:</strong> <span class="editable">[Dates]</span></li>
+                <li><strong>Field Trips:</strong> <span class="editable">[Dates if known]</span></li>
+                <li><strong>Service Project:</strong> <span class="editable">[Date if known]</span></li>
+                <li><strong>Bridging Ceremony:</strong> <span class="editable">[Approximate date]</span></li>
+            </ul>
+            <p><em>Full calendar will be shared once finalized</em></p>
+        </div>
+
+        <div class="section">
+            <h2>Frequently Asked Questions</h2>
+
+            <h3>What if my daughter can't make a meeting?</h3>
+            <p>Just let me know! We understand life happens. If she misses badge work, we can catch her up.</p>
+
+            <h3>Do I have to volunteer?</h3>
+            <p>We do need parent help to run meetings safely and successfully. Even if you can't attend every meeting, there are many ways to help!</p>
+
+            <h3>What if we can't afford the uniform?</h3>
+            <p>Don't let cost be a barrier! Talk to me privately. Girl Scouts has resources to help.</p>
+
+            <h3>Can siblings come to meetings?</h3>
+            <p>Generally, no - this is special time for our Daisies. If you need to bring a sibling occasionally, please ask ahead of time.</p>
+
+            <h3>What if my daughter wants to quit?</h3>
+            <p>Talk to me first! Sometimes girls just need a little encouragement or a different role in activities. We want every girl to feel included.</p>
+        </div>
+
+        <div class="contact-box">
+            <h2>Contact Information</h2>
+            <p><strong>Troop Leader:</strong> Megan Cosgrove<br>
+            <strong>Phone:</strong> <span class="editable">[Your phone]</span><br>
+            <strong>Email:</strong> <span class="editable">[Your email]</span></p>
+            <p><strong>Best time to reach me:</strong> <span class="editable">[When]</span></p>
+        </div>
+
+        <div class="section">
+            <h2>Thank You!</h2>
+            <p>I'm so excited to work with your daughters this year. Together, we're going to have an amazing Girl Scout experience!</p>
+            <p><strong>Let's make this year unforgettable!</strong></p>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; padding: 20px; background: #f9f9f9; border-top: 2px solid #ccc;">
+            <p><em>This handbook was created for Troop <span class="editable">[Number]</span> - <span class="editable">[Year]</span></em></p>
+        </div>
+    </div>
+</body>
+</html>
