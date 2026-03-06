@@ -1,0 +1,6 @@
+- **Opening & Closing:** Start with the Girl Scout Promise and end with a friendship circle
+- **Timing:** Plan 60–90 minute meetings with clear time blocks for each activity
+- **Engagement:** Keep ages 6–7 active with hands-on activities and movement breaks
+- **Prep:** Have all materials ready before scouts arrive
+- **Flexibility:** Be ready to adapt if energy levels or interest shifts
+- **Recognition:** Celebrate achievements and encourage participation
