@@ -5,6 +5,7 @@ description: Full plan for the March 12 first meeting. Welcome, the Girl Scout P
 ---
 
 
+
 *March 12, 2026 • 70 minutes • Theme: "Welcome to Girl Scouts!"*
 
 ## Supplies Needed
